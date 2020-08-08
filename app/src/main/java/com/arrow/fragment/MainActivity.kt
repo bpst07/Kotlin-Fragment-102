@@ -7,7 +7,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private val fragmentOneTag = "Fragment One"
-    private val fragmentOne = FragmentOne()
+    private var fragmentOne: FragmentOne = FragmentOne()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
